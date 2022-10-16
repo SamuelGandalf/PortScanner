@@ -4,7 +4,7 @@ import socket
 from termcolor import colored
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #this is to create the socket object
-socket.setdefaulttimeout(15) #this is to perform the scan within the specifid time.
+socket.setdefaulttimeout(15) #this is to perform the scan within the specified time.
 
 host = input("[**] Enter The Host To Perform Scan: ")
 #port = int(nput("[**] Enter the Port To Scan: "))
